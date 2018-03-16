@@ -17,6 +17,11 @@ netft_utils
 ```bash
 cd ~/catkin_ws/src
 git clone https://github.com/robot-chenwei/netft_utils.git
+```
+
+- Bulid it
+
+```bash
 cd ..
 catkin_make --pkg netft_utils
 ```
@@ -35,4 +40,5 @@ rostopic echo /netft_data
 rosrun netft_utils netft_node 192.168.1.84
 rostopic echo /netft_data
 ```
+- data type: geometry_msgs/WrenchStamped
 
